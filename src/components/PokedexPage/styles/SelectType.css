@@ -1,0 +1,10 @@
+.selectType-allPokemons {
+    background-color: rgb(216, 208, 208);
+    height: 35px;
+    width: 200px;
+    display: flex;
+    margin-left: 15em;
+    margin-top: -3.5em;
+    list-style: none;
+    border-radius: 0 0.3em 0.3em 0;
+}

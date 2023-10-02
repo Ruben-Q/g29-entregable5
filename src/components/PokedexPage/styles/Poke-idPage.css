@@ -1,0 +1,280 @@
+.poke-idPage { 
+    background-color: rgb(240, 240, 240);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 1850px;
+    gap: 3em;
+    
+}
+
+.poke-idPage-info {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 800px;
+    height: 900px;
+    margin-top: 130px;
+    border: 0.5em solid rgb(223, 223, 223);
+}
+
+.id-Page-image {
+    width: 341px;
+    height: 314px;
+    top: 195px;
+    left: 550px;
+}
+
+.poke-idPage-infoNombre {
+    background-color: rgb(66, 9, 9);
+    width: 170px;
+    height: 150px;
+    display: contents;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 1em;
+}
+
+.id-Pege-nombreFoto {
+    color: rgb(41, 41, 41);
+    text-transform: capitalize;
+}
+
+.numero-1 {
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    display: flex;
+    text-align: center;
+    border: 0.2em solid rgb(223, 223, 223);
+    border-radius: 0.3em;
+}
+
+.poke-id-PesoAltura {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    display: flex;
+    justify-items: center;
+    grid-template-columns: repeat(1, fr);
+    justify-items: center;
+    justify-content: space-between;
+    marker-start: 2em;
+}
+
+.pokePage-idInfo-tipoHabilidades {
+    display: flex;
+    width: 650px; 
+    height: 130px;
+    gap: 0.5em;
+    margin-top: 0;
+}
+
+.poke-idPage-tipo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 320px; 
+    height: 90px;
+    gap: 1em;
+}
+
+.id-Page-tipoTitulo {
+    text-align: center;
+}
+
+.poke-idPage-infoTipo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap:  2em;
+}
+
+.id-Page-venenoso {
+    background-color: rgba(89, 252, 13, 0.418);
+    width: 100px;
+    height: 30px;
+    border-radius: 0.2em;
+}
+
+.id-Page-planta {
+    background-color: rgb(161, 63, 252);
+    width: 100px;
+    height: 30px;
+    border-radius: 0.2em;
+}
+
+.poke-idPage-habilidades {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 320px; 
+    height: 90px;
+    gap: 1em;
+
+}
+
+.id-Page-habilidadesTitulo {
+    text-align: center;
+}
+
+.poke-idPage-habilidadesTitulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap:  2em;
+}
+
+.id-Page-crecimiento {
+    border: 0.1em solid rgb(201, 201, 201);
+    width: 100px;
+    height: 30px;
+    border-radius: 0.2em;
+}
+
+.id-Page-clorofila {
+border-color: grey;
+border: 0.1em solid rgb(201, 201, 201);
+    width: 100px;
+    height: 30px;
+    border-radius: 0.2em;
+}
+
+/***********************/
+
+.poke-id-statsInfo {
+    display: grid;
+    width: 560px;
+    height: 300px;
+    margin-right: 80px;
+    margin-top: 50;
+    margin-left: 95px;
+}
+
+.stats-hp {
+    display: grid;
+    width: 500px;
+    height: 34px;
+    left: 275px;
+    border-radius: 4px;
+    gap: 0.5em;
+}
+
+.visor-hp {
+    background-color: rgb(238, 181, 74);
+    width: 560px;
+    height: 20px;
+    left: 275px;
+    border-radius: 4px;
+}
+
+.stats-ataque {
+    display: grid;
+    width: 500px;
+    height: 34px;
+    left: 275px;
+    border-radius: 4px;
+    gap: 0.5em;
+}
+
+.visor-ataque {
+    background-color: rgb(238, 181, 74);
+    width: 560px;
+    height: 20px;
+    left: 275px;
+    border-radius: 4px;
+    gap: 0.5em;
+}
+
+.stats-defensa {
+    display: grid;
+    width: 500px;
+    height: 34px;
+    left: 275px;
+    border-radius: 4px;
+    gap: 0.5em;
+}
+
+.visor-defensa {
+    background-color: rgb(238, 181, 74);
+    width: 560px;
+    height: 20px;
+    left: 275px;
+    border-radius: 4px;
+    gap: 0.5em;
+}
+
+.stats-velocidad {
+    display: grid;
+    width: 500px;
+    height: 34px;
+    left: 275px;
+    border-radius: 4px;
+    gap: 0.5em;
+}
+
+.visor-velocidad {
+    background-color: rgb(238, 181, 74);
+    width: 560px;
+    height: 20px;
+    left: 275px;
+    border-radius: 4px;
+}
+
+/*********** movement */
+.movements {
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    width: 800px;
+    height: 550px;
+    gap: 3em;
+    margin-top: -30px;
+    border: 0.5em solid rgb(223, 223, 223);
+}
+
+.tex-movement { 
+    position: relative;
+    padding-top: 20px;
+    font-size: 25px;
+    margin-left: 30px;
+
+}
+
+.movement-groupBack {
+    position: absolute;
+    margin-top: 80px;
+    background-color: aqua;
+    display: flex;
+    text-align: center;
+    width: 600px;
+    height: 450px;
+    margin-left: 90px;
+    justify-content: space-between;
+    
+}
+
+
+.movement-btn {
+    background-color: rgb(207, 152, 152);
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

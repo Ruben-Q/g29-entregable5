@@ -1,0 +1,71 @@
+.header-entrenador {
+    background-color: rgb(214, 214, 214);
+    display: grid;
+    justify-items: center;
+    gap: 1em 0.2em;
+    font-size: 0.7rem;
+    font-weight: 300;
+    justify-items: center;
+}
+
+.header-imagen {
+    width: 100%;
+    height: 180px;
+}
+
+.header-pokedexPage-sumImagen {
+    width: 20%;
+    margin-top: -138px;
+    margin-left: 100px;
+}
+
+.header-pokedexPage {
+    width: 100%;
+    height: 200px;
+}
+
+.header-bv-entrenador {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header-group {
+    width: 400px;
+    display: flex;
+    margin-top: 2em;
+}
+
+.header-input {
+    width: 300px;
+    height: 35px;
+    border-radius: 0.3em 0 0 0.3em;
+}
+
+.header-btnSearch {
+    background-color: red;
+    display: flex;
+    text-align: center;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin-left: 1e;
+    
+}
+.container-poke {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
