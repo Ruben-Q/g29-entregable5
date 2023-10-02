@@ -6,7 +6,7 @@ import PokedexIdPage from "./pages/PokedexIdPage"
 import ProtectedRoutes from "./pages/ProtectedRoutes"
 import "./components/PokedexPage/styles/PokeCard.css"
 import "./components/PokedexPage/styles/hp-portada.css"
-import "./components/PokedexPage/styles/PokedexPage.css"
+import "./components/PokedexPage/styles/pokedexPage.css"
 import "./components/PokedexPage/styles/SelectType.css"
 import "./components/PokedexPage/styles/Poke-idPage.css"
 
